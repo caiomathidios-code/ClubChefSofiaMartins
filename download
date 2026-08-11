@@ -1,8 +1,0 @@
-# Força tratamento binário para imagens - evita corrupção por conversão de quebra de linha (CRLF/LF)
-*.webp binary
-*.avif binary
-*.png binary
-*.jpg binary
-*.jpeg binary
-*.gif binary
-*.ico binary
