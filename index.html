@@ -9,7 +9,7 @@
 <link rel="preconnect" href="https://connect.facebook.net">
 <link rel="preconnect" href="https://www.facebook.com">
 <link rel="preconnect" href="https://cdn.utmify.com.br">
-<link rel="preload" href="images/hero.webp" as="image" fetchpriority="high">
+<link rel="preload" href="images/hero-900.webp" as="image" fetchpriority="high" imagesrcset="images/hero-480.webp 480w, images/hero-900.webp 900w" imagesizes="(max-width: 820px) 100vw, 420px" type="image/webp">
 
 <!-- Meta Pixel Code -->
 <script>
@@ -213,7 +213,10 @@ src="https://www.facebook.com/tr?id=1044850421643507&ev=PageView&noscript=1"
       </div>
     </div>
     <div class="hero-img">
-      <img src="images/hero.webp" alt="Clube de Receitas da Chef Sofia Martins" width="900" height="506" loading="eager" fetchpriority="high" decoding="async">
+      <picture>
+        <source type="image/webp" srcset="images/hero-480.webp 480w, images/hero-900.webp 900w" sizes="(max-width: 820px) 100vw, 420px">
+        <img src="images/hero-900.webp" alt="Clube de Receitas da Chef Sofia Martins" width="900" height="506" loading="eager" fetchpriority="high" decoding="async">
+      </picture>
     </div>
   </div>
 </section>
@@ -242,28 +245,40 @@ src="https://www.facebook.com/tr?id=1044850421643507&ev=PageView&noscript=1"
     <h2>Veja o que irá preparar:</h2>
     <div class="recipes-grid">
       <div class="recipe-card">
-        <img src="images/receita-1.webp" alt="Bacalhau à Chef" width="520" height="780" loading="lazy" decoding="async">
+        <picture>
+          <source type="image/webp" srcset="images/receita-bacalhau-300.webp 300w, images/receita-bacalhau-520.webp 520w" sizes="(max-width: 480px) 45vw, (max-width: 820px) 30vw, 226px">
+          <img src="images/receita-bacalhau-520.webp" alt="Bacalhau à Chef" width="520" height="520" loading="lazy" decoding="async">
+        </picture>
         <div class="info">
           <h3>BACALHAU À CHEF (VERSÃO SAUDÁVEL)</h3>
           <p>Baixo em gorduras, rico em sabor e sem picos de glicémia</p>
         </div>
       </div>
       <div class="recipe-card">
-        <img src="images/receita-2.webp" alt="Arroz Doce sem Açúcar" width="520" height="347" loading="lazy" decoding="async">
+        <picture>
+          <source type="image/webp" srcset="images/receita-arroz-doce-300.webp 300w, images/receita-arroz-doce-520.webp 520w" sizes="(max-width: 480px) 45vw, (max-width: 820px) 30vw, 226px">
+          <img src="images/receita-arroz-doce-520.webp" alt="Arroz Doce sem Açúcar" width="520" height="520" loading="lazy" decoding="async">
+        </picture>
         <div class="info">
           <h3>ARROZ DOCE SEM AÇÚCAR</h3>
           <p>Cremoso e doce na medida certa, usando adoçantes naturais</p>
         </div>
       </div>
       <div class="recipe-card">
-        <img src="images/receita-3.webp" alt="Pão Integral de Fermentação Lenta" width="520" height="780" loading="lazy" decoding="async">
+        <picture>
+          <source type="image/webp" srcset="images/receita-pao-integral-300.webp 300w, images/receita-pao-integral-520.webp 520w" sizes="(max-width: 480px) 45vw, (max-width: 820px) 30vw, 226px">
+          <img src="images/receita-pao-integral-520.webp" alt="Pão Integral de Fermentação Lenta" width="520" height="520" loading="lazy" decoding="async">
+        </picture>
         <div class="info">
           <h3>PÃO INTEGRAL DE FERMENTAÇÃO LENTA</h3>
           <p>Rico em fibras para manter o colesterol sob controlo</p>
         </div>
       </div>
       <div class="recipe-card">
-        <img src="images/receita-4.webp" alt="Sopa da Pedra Detox" width="520" height="390" loading="lazy" decoding="async">
+        <picture>
+          <source type="image/webp" srcset="images/receita-sopa-pedra-300.webp 300w, images/receita-sopa-pedra-520.webp 520w" sizes="(max-width: 480px) 45vw, (max-width: 820px) 30vw, 226px">
+          <img src="images/receita-sopa-pedra-520.webp" alt="Sopa da Pedra Detox" width="520" height="520" loading="lazy" decoding="async">
+        </picture>
         <div class="info">
           <h3>SOPA DA PEDRA DETOX</h3>
           <p>Rica em potássio para ajudar a baixar a tensão arterial</p>
